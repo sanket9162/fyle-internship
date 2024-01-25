@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.search-section {
+  display: flex;
+  justify-content: center;
+}
+.search {
+  margin: 0 auto;
+  margin-top: 5rem;
+  background: #5bc5ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4rem;
+  padding: 0 2rem;
+
+  & i {
+    font-size: 3rem;
+    color: #ffffff;
+  }
+  & input {
+    background: #5bc5ff;
+    color: #ffffff;
+    font-size: 2rem;
+    outline: none;
+    border: 0;
+    padding: 2rem 2rem;
+  }
+  & button {
+    background: #ffffff;
+    color: #5bc5ff;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  & button:hover {
+    background: #dde7ec;
+  }
+}
+
+#main {
+  max-width: 142rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  & img {
+    width: 22rem;
+    height: 22rem;
+    border-radius: 50%;
+  }
+  & .user-detail h1 {
+    font-size: 3rem;
+  }
+  & .user-detail p {
+    font-size: 2rem;
+  }
+  & .user-detail h3 {
+    font-size: 2rem;
+  }
+}
+
+.github-link {
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+.repo-card {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+.repo {
+  border: 2px solid black;
+  padding-left: 1rem;
+  & h1 {
+    color: #5bc5ff;
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+  & p {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+}
+
+.lang {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  & p{
+    background: #5bc5ff;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+  }
+}
